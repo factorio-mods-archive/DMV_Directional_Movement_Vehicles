@@ -1,0 +1,46 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 2024-07-01
+  Changes:
+    - Fixed compatibility involving hovercraft and assault hovercraft.
+    - Added mods reported incompatible to the incompatibilities list.
+    - Fixed spidertron patrols dock collision box changing from 3x3 to 4x4. (If you already had docks with DMV, they'll probably work as-is, or you could pick them up and place them again.)
+    - Changed the sticker box that displays enemy spit on vehicles to be square. Vehicles rotate, so a rectangular sticker doesn't make sense.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2024-07-01
+  Changes:
+    - Increased DMV car top-speed drastically to 75 km/h. For reference, the vanilla car burning coal drives on dirt at 100 km/h. Consequently, the car will jump logs, cliffs, and rocks at top speed.
+    - Likely fixed error some players experienced running over bugs with a tank.
+    - DMV Vehicles no longer bob up and down! Ironclad still bobs in the water!
+    - Nerf car gunning cooldown further from 9 to 12, as it was too easy to clear biter nests with some weapon upgrades.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2022-07-21
+  Changes:
+    - Thumbnail is now my standard 720px with minimal harsh diagonals, to look good in as many different UI settings as possible.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2022-07-21st
+  Bugfixes:
+    - Fixed DMVs being able to drive on some water tiles!
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2022-07-21
+  Changes:
+    - Supports the new version of Oil-Based Paint.
+  Features:
+    - DMVs can now open gates!
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2022-07-18
+  Features:
+    - Support for Boombastique Immersive Sound Pack by Fooltaurus
+    - Added Immersive Sound's vehicle impact sounds for DMV impact with trees and rocks which supports Alien Biomes (Boombastique Immersive Sound Pack not required, but recommended)
+    - Added vehicle impact particles to Alien Biomes rocks, which is inexplicably missing! Someone should complain to Earendel! :P
+  Changes:
+    - Changed the way animation layers are recognized when generating DMVs, for compatibility
+    - Tanks now deal enough impact/crushing damage to run over medium biters
+    - Vehicles that destroy trees now have a slight randomization to how much effort is required to down the tree. (But you still won't see health bars)
+  Bugfixes:
+    - Tanks collision radius with biters now uses positive numbers (I mean, it was kinda working with negative numbers?)

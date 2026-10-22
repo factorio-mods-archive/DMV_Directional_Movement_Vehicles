@@ -1,0 +1,28 @@
+{
+	"name": "DMV_Directional_Movement_Vehicles",
+	"version": "1.0.6",
+	"title": "DMV - Directional Movement Vehicles",
+	"author": "Preston Lee ℭole",
+	"description": "Vehicles move like player: (W for north, A for west, etc). Vehicles collide smoothly, taking no collision damage. Much easier to drive. Better engine sound, purr. Keeps unique paint color, even when picked up (recommended mod for better paint jobs: Oil-Based Paint). Weapon auto-targetting, configure on each vehicle. Spidertron remote is now \"Remote control\" and can control all DMV vehicles. Compatible mod vehicles: AAI Ironclad, Warden, Hauler, One More Hovercraft. Compatible with Spidertron Patrols to haul cargo with vehicles.",
+	"factorio_version": "1.1",
+    "dependencies": [
+        "base",
+		"? aai-vehicles-ironclad",
+		"? aai-vehicles-warden",
+		"? aai-vehicles-flame-tank",
+		"? one-more-hovercraft",
+		"? light-overhaul",
+		"? aai-industry",
+		"? SpidertronEnhancements",
+		"? SpidertronPatrols",
+		"! spider-trails",
+		"! aai-programmable-vehicles"
+    ],
+	"package":{
+		"ignore": [
+			"**/*.psd",
+			"*.jpg",
+			"Mod Portal/*"
+		]
+	}
+}
